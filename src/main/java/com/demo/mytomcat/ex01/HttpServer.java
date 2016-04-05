@@ -21,12 +21,12 @@ public class HttpServer {
 	/**
 	 * shutdown command
 	 */
-	private static final String SHUTDOWN_COMMAND = "/SHUTDOWN";
+	protected static final String SHUTDOWN_COMMAND = "/SHUTDOWN";
 	
 	/**
 	 * shut down command received
 	 */
-	private boolean shutdown = false; 
+	protected boolean shutdown = false;
 	
 	public static void main(String[] args) {
 		HttpServer server = new HttpServer();
